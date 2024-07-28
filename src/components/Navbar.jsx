@@ -26,7 +26,7 @@ export const Navbar = () => {
 
       {user?.email ? (
         <div>
-          <Link to="/sign-in">
+          <Link to="/account">
             <button className="bg-white bg-opacity-50 text-black font-medium px-6 py-2 rounded cursor-pointer mr-2">Account</button>
           </Link>
 
