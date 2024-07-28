@@ -1,4 +1,5 @@
 const key = "724bcbf389498cbaf6d19a4e587c0206";
+const imagesrc = "https://image.tmdb.org/t/p/original";
 
 const request = {
   requestPopular: `https://api.themoviedb.org/3/movie/popular?api_key=${key}&language=en-US&page=1`,
@@ -8,4 +9,4 @@ const request = {
   requestUpcoming: `https://api.themoviedb.org/3/movie/upcoming?api_key=${key}&language=en-US&page=1`,
 };
 
-export default request;
+export { request, imagesrc };
